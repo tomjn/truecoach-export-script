@@ -2,7 +2,7 @@
  * TrueCoach Workout Data Exporter
  *
  * Usage:
- * 1. Log into TrueCoach at https://app.truecoach.co
+ * 1. Log in to TrueCoach at https://app.truecoach.co
  * 2. Open DevTools (F12 or Cmd+Option+I on Mac)
  * 3. Go to Console tab
  * 4. Paste this entire script and press Enter
@@ -11,7 +11,7 @@
 
 (async function exportTrueCoachWorkouts() {
   const PER_PAGE = 20;
-  const STATES = 'completed';//,missed,pending';
+  const STATES = 'completed,missed,pending';
 
   console.log('🏋️ TrueCoach Export - Starting...');
 
